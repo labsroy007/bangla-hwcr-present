@@ -2,6 +2,9 @@
 
 This is the code for the paper "Bengali Handwritten Character Classification using Transfer Learning on Deep Convolutional Neural Network" authored by Swagato Chatterjee ( https://github.com/swagato-c/ ), Rwik Kumar Dutta ( https://github.com/rwikdutta ) and others. 
 
+Cite this paper:
+Chatterjee, S., Dutta, R.K., Ganguly, D., Chatterjee, K., Roy, S. (2020). Bengali Handwritten Character Classification Using Transfer Learning on Deep Convolutional Network. In: Tiwary, U., Chaudhury, S. (eds) Intelligent Human Computer Interaction. IHCI 2019. Lecture Notes in Computer Science(), vol 11886. Springer, Cham. https://doi.org/10.1007/978-3-030-44689-5_13
+
 The weight file is given which can easily be loaded using FastAI library and used for further training or inference. For training, the weight file model_files_final_weights_train.pth needs to be used. For further inference, the weight file model_files_final_weights_interp.pkl needs to be used. The .pkl weight file holds a little bit more information which helps during inference but can't be used for further training ( as of writing this document ).
 
 Using this weights, 96.13% accuracy was achieved on the BanglaLekha-Isolated Dataset ( https://data.mendeley.com/datasets/hf6sf8zrkc/2 ).
